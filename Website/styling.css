@@ -17,8 +17,9 @@
 
 .menu-bar ul li {
   width: 150px;
-  margin: 15px;
-  padding: 9px;
+  margin: 3px;
+  padding: 12px;
+
 }
 
 .menu-bar ul li a {
@@ -47,15 +48,15 @@
   position: absolute;
   background: rgba(105, 98, 98, 0.4);
   border-radius: 4px;
-  margin-top: 10px;
+  margin-top: 11px;
   margin-left: -9px;
 }
 
 .menu-bar ul li:hover .sub-menu-1 ul {
   display: block;
-  margin: 5px;
+  margin: 4px;
   width: 135px;
-  height: 200px;
+  height: 150px;
   padding: 2px;
   border-radius: 0;
   border-width: thin;
@@ -63,7 +64,11 @@
 }
 
 .menu-bar ul li:hover .sub-menu-1 ul li{
-  width: 100px;
+  width: 125px;
+}
+
+.pdf {
+  text-align: center;
 }
 
 
