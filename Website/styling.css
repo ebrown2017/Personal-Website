@@ -7,6 +7,8 @@
 .menu-bar {
   backdrop-filter: blur(4px);
   text-align: center;
+  box-sizing: border-box;
+  box-shadow: 5px 10px 8px #888888;
 }
 
 .menu-bar ul {
@@ -71,14 +73,62 @@
   text-align: center;
 }
 
+.info-bar {
+  padding-top: 100px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.info-bar ul {
+  width: 30%;
+  display: inline-block;
+  backdrop-filter: blur(5px);
+  box-sizing: border-box;
+  box-shadow: 5px 10px 8px #888888;
+  border-radius: 5px;
+  text-decoration: none;
+  text-shadow: 2px 2px 8px #1e1e1e;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 16px;
+  list-style: none;
+}
+
+.info-bar ul li {
+  padding: 4px;
+}
+
+.project-bar {
+  padding-top: 100px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.project-bar ul {
+  width: 30%;
+  display: inline-block;
+  backdrop-filter: blur(5px);
+  box-sizing: border-box;
+  box-shadow: 5px 10px 8px #888888;
+  border-radius: 5px;
+  text-decoration: none;
+  text-shadow: 2px 2px 8px #1e1e1e;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 16px;
+  list-style: none;
+  margin: 10px;
+}
+
+.project-bar ul li {
+  padding: 4px;
+}
 
 body {
   background-image: url(./images/mainbackground.jpg);
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
-
-  box-sizing: border-box;
-  box-shadow: 5px 10px 8px #888888;
+  background-clip: border-box;
 
   font-family: sans-serif;
 }
